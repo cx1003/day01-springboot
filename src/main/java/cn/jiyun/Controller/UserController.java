@@ -11,4 +11,8 @@ public class UserController {
     public String index(){
         return "我是springboot项目";
     }
+    @RequestMapping("index2")
+    public String index(){
+        return "我是springboot";
+    }
 }
