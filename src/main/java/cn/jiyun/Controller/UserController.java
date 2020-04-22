@@ -12,7 +12,7 @@ public class UserController {
         return "我是springboot项目";
     }
     @RequestMapping("index2")
-    public String index(){
+    public String index2(){
         return "我是springboot";
     }
 }
